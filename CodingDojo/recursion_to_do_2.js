@@ -48,9 +48,9 @@ function ackermann(num1, num2){
 // Create the Zibonacci(num) function. What is Zibonacci(10)? Zibonacci(100)?
 function Zibonacci(num) {
     if (num === 0) {
-      return 1;
+        return 1;
     } else if (num === 1) {
-      return 1;
+        return 1;
     } else if (num === 2) {
       return 2;
     } else if (num % 2 === 1) { // odd values
